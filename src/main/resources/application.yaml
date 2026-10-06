@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: repository-automation-service
+
+server:
+  port: 8080
+
+repository-platform:
+  base-url: ${REPOSITORY_API_URL:http://localhost:8081}
+  token: ${REPOSITORY_API_TOKEN:}
